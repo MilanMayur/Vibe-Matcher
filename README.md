@@ -24,7 +24,7 @@ A lightweight recommendation system that takes a vibe-style query (e.g., “ener
 ## Project Structure
 
 ```bash
-├── vibe_matcher.ipynb   # Main notebook (end-to-end prototype)
+├── file.ipynb   # Main notebook (end-to-end prototype)
 ├── README.md            # You're reading it
 └── .env                 # Contains OPENROUTER_API_KEY (not included)
 ```
