@@ -71,6 +71,7 @@ Final Vector = 0.3·Name + 0.5·Description + 0.2·Vibes
 - Similarity metric: Cosine Similarity
 - Raw cosine score ∈ [-1, 1]
 - Scores are transformed into a user-friendly range:
+
 | Stage   | Formula       |
 | ------- | ------------- |
 | Scaled  | (raw + 1) / 2 |
