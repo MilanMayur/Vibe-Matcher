@@ -81,26 +81,26 @@ Boosted scores make strong matches more distinguishable.
 
 ## Performance Evaluation
 
-### Metrics Collected
+Metrics Collected:
   - Raw similarity score
   - Scaled score
   - Boosted score
   - Match quality flag
   - Latency per query (ms)
 
-### Latency Test
+Latency Test:
   - Multiple runs of the same query
   - Results plotted using Matplotlib
   - Confirms low and stable inference time
 
-### Limitations (As per Code)
+## Limitations:
 - Small in-memory catalog
 - No database or vector store
 - No learning or feedback loop
 - Single-query matching only
 - No keyword + semantic hybrid search
 
-### Future Improvements
+## Future Improvements:
 - Pinecone / FAISS vector store
 - Batch embedding & caching
 - Hybrid keyword + semantic search
